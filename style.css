@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 16px;
+}
+#hero{
+    background: url('./tortue.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10%;
+    
+}
+
+
+#hero2{
+    background: url('./polu.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10%;
+    
+}
+
+
+    
+
+nav{
+    background-color: black;
+    
+    text-align: right;
+    padding:  20px;
+   
+    
+    
+}
+nav a{
+    color: white;
+    
+}
+
+
+
+#contenu a{
+    color:rgb(243, 8, 8);
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 20px;
+    transition: ease 1s;
+}
+#contenu a:hover{
+    color : white;
+    background-color: rgba(178,32,19,0,8);
+}
+image{
+    position: absolute;
+}
+    
+hero.a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 20px;
+    transition: 1s;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 20px;
+    transition: 1s;
+}
+
+
+#contenu{
+    text-align: center;
+    padding: 2%;
+}
+
+
+h1{
+    color: whitesmoke;
+    font-size: 80px;
+    font-family: fantasy;
+    font-family: 'Rock Salt', cursive;
+}
+h2{
+    font-size: 40px;
+}
+#apropos{
+    display: flex;
+}
+#apropos-image{
+    padding: 20px;
+    flex:1;
+    max-width: 100%;
+}
+
+#apropos-texte{
+    padding: 20px;
+    flex: 2;
+    text-align: justify;
+}
+
+#services{
+    display: flex;
+    background-color:black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+   
+}
+
+/* Media queries */
+
+@media screen and  (max-width: 414px) { 
+    #apropos{
+        color:yellow;
+        flex-direction: column;
+     }
+    #services{
+        flex-direction: column;
+     }
+    nav a{ 
+        display: block;
+        padding: 10px;
+     } 
+}
+
+
